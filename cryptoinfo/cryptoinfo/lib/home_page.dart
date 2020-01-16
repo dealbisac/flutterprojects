@@ -61,7 +61,7 @@ ListTile _getListItemUi(Map currency, MaterialColor color){
 Widget _getSubtitleText(String priceUSD, String percentageChange){
   TextSpan priceTextWidget = new TextSpan(text: "\$$priceUSD\n",
   style: new TextStyle(color: Colors.black));
-  String percentageChangeText = "1 hour: $percentageChange%";
+  String percentageChangeText = "Change in 1 hour: $percentageChange%";
   TextSpan percentageChangeTextWidget;
 
   if(double.parse(percentageChange)>0){
